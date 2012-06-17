@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to MDPong</string>
+    <string name="app_name">MDPong</string>
+    <string name="startGameLabel">Start Game Server</string>
+    <string name="sensor">Sensor Test</string>
+    <string name="xAxisLabel">X:</string>
+    <string name="yAxisLabel">Y:</string>
+    <string name="zAxisLabel">Z:</string>
+    <string name="ipLabel">192.168.1.170</string>
+    <string name="port">16000</string>
+    <string name="connectLabel">Connect to Server</string>
+    <string name="textViewDefault">textView</string>
+    
+</resources>

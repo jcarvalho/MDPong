@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="@string/startGameLabel" />
+
+    <EditText
+        android:id="@+id/ipText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/startGameButton"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true"
+        android:text="@string/ipLabel" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/startGameButton"
+        android:layout_below="@+id/ipText"
+        android:text="@string/connectLabel" />
+
+    <Button
+        android:id="@+id/sensorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connectButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="@string/sensor" />
+
+    <EditText
+        android:id="@+id/editPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/connectButton"
+        android:inputType="number"
+        android:text="@string/port" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
